@@ -1,0 +1,506 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1249f778-de2d-49b4-b768-08b76b87278f")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 166.37 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d39f5e8a-dc0e-4083-8e9b-d9f70f226672")
+	)
+	(junction
+		(at 217.17 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f483fe3e-547f-4006-bc2d-fc52345dc2f2")
+	)
+	(junction
+		(at 162.56 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa4e7e99-e1b0-4c7b-b7ed-79b453cbc823")
+	)
+	(junction
+		(at 217.17 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd7aa2f0-d4ab-415e-b5b7-1802ee5e4188")
+	)
+	(wire
+		(pts
+			(xy 214.63 100.33) (xy 217.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016d2b30-e7eb-4ef5-97c5-2420325bb698")
+	)
+	(wire
+		(pts
+			(xy 212.09 76.2) (xy 217.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cec1de-f40b-4140-b118-64f40fbc434d")
+	)
+	(wire
+		(pts
+			(xy 214.63 127) (xy 214.63 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d794a98-c409-4282-985f-ae52e254bd8e")
+	)
+	(wire
+		(pts
+			(xy 162.56 121.92) (xy 198.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32586c68-5520-4ad6-8408-0048c36b984a")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 162.56 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d36f026-5102-46e8-a40c-bdad23d5e782")
+	)
+	(wire
+		(pts
+			(xy 198.12 78.74) (xy 166.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a693113-a43c-4ba4-86f0-8cda99ab55a2")
+	)
+	(wire
+		(pts
+			(xy 148.59 121.92) (xy 162.56 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637f12b9-5946-4637-b79a-e63e88f1224a")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 198.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6e1ff1-27de-459e-b89b-3e75d48f3497")
+	)
+	(wire
+		(pts
+			(xy 217.17 121.92) (xy 213.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80938671-447d-42b2-b252-c6cce0122512")
+	)
+	(wire
+		(pts
+			(xy 148.59 118.11) (xy 166.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909380dc-a403-4311-9084-34f864ef8ce1")
+	)
+	(wire
+		(pts
+			(xy 217.17 76.2) (xy 217.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9155b9b4-d3af-4c1a-aa14-d88542a70b47")
+	)
+	(wire
+		(pts
+			(xy 166.37 78.74) (xy 166.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92abe903-5bb2-4fed-b995-5728464633f4")
+	)
+	(wire
+		(pts
+			(xy 217.17 90.17) (xy 217.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a34a18-1695-443d-b854-9495720ecd87")
+	)
+	(wire
+		(pts
+			(xy 148.59 90.17) (xy 217.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97299745-1ab3-4e3d-8b33-12b53535f4c2")
+	)
+	(wire
+		(pts
+			(xy 198.12 118.11) (xy 166.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd8b7ad-d449-4e21-86a2-5d3ed020b88c")
+	)
+	(wire
+		(pts
+			(xy 213.36 118.11) (xy 214.63 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4545847-c4ab-48f8-b8b9-26c591485460")
+	)
+	(wire
+		(pts
+			(xy 214.63 127) (xy 148.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e489bbb1-39cc-4a76-a87e-2e896e280756")
+	)
+	(wire
+		(pts
+			(xy 217.17 100.33) (xy 217.17 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e859ad-26e9-4b79-b8a7-1f6a0f8cf670")
+	)
+	(sheet
+		(at 198.12 96.52)
+		(size 16.51 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "229629cb-a49c-4768-b0e8-d6cfdb6777f2")
+		(property "Sheetname" "Battery"
+			(at 198.12 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 198.12 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vout" output
+			(at 214.63 100.33 0)
+			(uuid "293d1e59-b1c1-451e-b909-765ec4de7dd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CareLoop_PCB"
+				(path "/1249f778-de2d-49b4-b768-08b76b87278f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 114.3)
+		(size 15.24 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2740786f-be08-4dc9-b089-426f17e30b14")
+		(property "Sheetname" "MPU6050"
+			(at 198.12 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mpu6050.kicad_sch"
+			(at 198.12 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INT" output
+			(at 213.36 118.11 0)
+			(uuid "daa31a79-0a94-4fca-9c7e-1f1a4f98218e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 198.12 121.92 180)
+			(uuid "690426ad-1916-4d57-9453-d6100322bbbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 198.12 118.11 180)
+			(uuid "bd72bd3e-173a-4547-89f0-c4f8dfe327fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 213.36 121.92 0)
+			(uuid "b3318a48-b291-4aaf-ad08-d40d83cc3666")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CareLoop_PCB"
+				(path "/1249f778-de2d-49b4-b768-08b76b87278f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 73.66)
+		(size 13.97 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b38cd729-7350-45f3-a38f-570d6a1e3d63")
+		(property "Sheetname" "MAX30102"
+			(at 198.12 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "max30102.kicad_sch"
+			(at 198.12 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 198.12 76.2 180)
+			(uuid "42272260-6741-4bf3-9c14-6e46006e871f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 198.12 78.74 180)
+			(uuid "067a882c-7e32-4597-b662-6f46df95b730")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 212.09 76.2 0)
+			(uuid "e0a03aea-fa51-413f-a183-3b826208b96d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CareLoop_PCB"
+				(path "/1249f778-de2d-49b4-b768-08b76b87278f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 86.36)
+		(size 27.94 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e2760af2-fede-4cd0-b682-1484526d1bab")
+		(property "Sheetname" "MCU"
+			(at 120.65 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 120.65 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" output
+			(at 148.59 121.92 0)
+			(uuid "e0146abf-c217-4cf7-9e17-444acb66821a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 148.59 118.11 0)
+			(uuid "c5e9e9ae-956a-4528-9cce-d630f9d02adf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 148.59 90.17 0)
+			(uuid "0d649c6d-6dfa-444b-bf11-781f65bdebd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_MPU" input
+			(at 148.59 127 0)
+			(uuid "1ccba7fe-6f4b-4e70-9f3d-af8725c2766f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CareLoop_PCB"
+				(path "/1249f778-de2d-49b4-b768-08b76b87278f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
