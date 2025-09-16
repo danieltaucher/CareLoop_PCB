@@ -652,6 +652,10 @@
     [
       "229629cb-a49c-4768-b0e8-d6cfdb6777f2",
       "Battery"
+    ],
+    [
+      "6a4240b2-fe07-4b72-99e3-52c15e65d120",
+      "Antenna"
     ]
   ],
   "text_variables": {}
