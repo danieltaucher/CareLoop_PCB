@@ -1783,6 +1783,12 @@
 		(uuid "78b19f1b-50bb-488b-8d84-72e113a24622")
 	)
 	(junction
+		(at 121.92 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "934a68ca-3748-429f-b5c9-9e127618a1d8")
+	)
+	(junction
 		(at 88.9 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2280,6 +2286,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 60.96) (xy 124.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29af32f-4dc5-4592-80e7-f31a7201868a")
+	)
+	(wire
+		(pts
 			(xy 120.65 91.44) (xy 125.73 91.44)
 		)
 		(stroke
@@ -2368,7 +2384,7 @@
 		)
 		(uuid "f95eb672-98f9-43e8-ab0c-4aee4a91df56")
 	)
-	(hierarchical_label "Vout"
+	(hierarchical_label "VCC"
 		(shape output)
 		(at 179.07 80.01 0)
 		(effects
@@ -2389,6 +2405,17 @@
 			(justify left)
 		)
 		(uuid "6a322284-1d2f-4d04-ae31-35b868f01495")
+	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 124.46 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ef77193-b135-4759-823e-40ec907d2251")
 	)
 	(hierarchical_label "Dminus"
 		(shape bidirectional)

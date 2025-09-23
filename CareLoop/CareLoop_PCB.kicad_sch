@@ -161,6 +161,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 60.96) (xy 71.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc27950-070f-4ab9-b963-d34c2c74080c")
+	)
+	(wire
+		(pts
 			(xy 124.46 113.03) (xy 138.43 113.03)
 		)
 		(stroke
@@ -351,6 +361,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 88.9) (xy 199.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca905da2-6518-4d44-b942-a2d5a482feb1")
+	)
+	(wire
+		(pts
 			(xy 173.99 92.71) (xy 129.54 92.71)
 		)
 		(stroke
@@ -358,6 +378,16 @@
 			(type default)
 		)
 		(uuid "d729e466-9126-4012-8341-e0f5e368ebde")
+	)
+	(wire
+		(pts
+			(xy 199.39 60.96) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99f6b7d-5d04-4bfc-8f28-6421bdceacba")
 	)
 	(wire
 		(pts
@@ -378,6 +408,26 @@
 			(type default)
 		)
 		(uuid "e4545847-c4ab-48f8-b8b9-26c591485460")
+	)
+	(wire
+		(pts
+			(xy 199.39 88.9) (xy 199.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5906256-f13a-42b3-b79e-0a2e0cdf352c")
+	)
+	(wire
+		(pts
+			(xy 71.12 107.95) (xy 96.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea649229-82f0-4eb8-ad69-85761f6e9823")
 	)
 	(wire
 		(pts
@@ -443,16 +493,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Vout" output
-			(at 190.5 91.44 0)
-			(uuid "293d1e59-b1c1-451e-b909-765ec4de7dd6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Dminus" bidirectional
 			(at 173.99 90.17 180)
 			(uuid "23a61790-f086-4410-89fd-63b125479c13")
@@ -471,6 +511,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "VCC" output
+			(at 190.5 91.44 0)
+			(uuid "7e161b39-1ece-4437-af10-86e3036c8e4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" output
+			(at 190.5 88.9 0)
+			(uuid "5816ffbb-d539-4639-8775-a4bd8331017c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -818,6 +878,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 96.52 107.95 180)
+			(uuid "fe6823e2-af48-4bf9-9c8b-0dbe1649aa20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
