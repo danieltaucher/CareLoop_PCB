@@ -948,7 +948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Antenna:Johanson_2450AT18x100"
 			(at 129.54 86.995 0)
 			(effects
 				(font
@@ -1000,7 +1000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c156721-7f88-4731-9191-40bb71c018bc")
-		(property "Reference" "L4"
+		(property "Reference" "L50"
 			(at 124.46 88.9 90)
 			(effects
 				(font
@@ -1016,7 +1016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 124.46 93.98 0)
 			(effects
 				(font
@@ -1052,7 +1052,7 @@
 		(instances
 			(project "CareLoop_PCB"
 				(path "/1249f778-de2d-49b4-b768-08b76b87278f/6a4240b2-fe07-4b72-99e3-52c15e65d120"
-					(reference "L4")
+					(reference "L50")
 					(unit 1)
 				)
 			)
@@ -1068,7 +1068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63f20d04-827f-4a7e-8fc5-e3148d842b14")
-		(property "Reference" "L3"
+		(property "Reference" "L51"
 			(at 119.38 97.7899 0)
 			(effects
 				(font
@@ -1086,7 +1086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 118.11 99.06 0)
 			(effects
 				(font
@@ -1122,7 +1122,7 @@
 		(instances
 			(project ""
 				(path "/1249f778-de2d-49b4-b768-08b76b87278f/6a4240b2-fe07-4b72-99e3-52c15e65d120"
-					(reference "L3")
+					(reference "L51")
 					(unit 1)
 				)
 			)
@@ -1202,7 +1202,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ab04358b-a65b-47e0-8d05-b2afb2739326")
 		(property "Reference" "J1"
 			(at 101.0804 87.63 0)
@@ -1213,14 +1212,14 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial_Small"
-			(at 101.0804 90.17 0)
+			(at 97.79 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
 			(at 101.6 93.98 0)
 			(effects
 				(font
@@ -1272,7 +1271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad113bac-3711-4cf6-87b6-83c543469497")
-		(property "Reference" "C20"
+		(property "Reference" "C50"
 			(at 111.7663 87.63 90)
 			(effects
 				(font
@@ -1288,7 +1287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 111.76 93.98 0)
 			(effects
 				(font
@@ -1324,7 +1323,7 @@
 		(instances
 			(project ""
 				(path "/1249f778-de2d-49b4-b768-08b76b87278f/6a4240b2-fe07-4b72-99e3-52c15e65d120"
-					(reference "C20")
+					(reference "C50")
 					(unit 1)
 				)
 			)

@@ -1711,7 +1711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1f62e43-aa15-47d1-8e38-24f90c06a4df")
-		(property "Reference" "C13"
+		(property "Reference" "C33"
 			(at 176.53 104.1399 0)
 			(effects
 				(font
@@ -1729,7 +1729,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 171.7548 101.6 0)
 			(effects
 				(font
@@ -1765,7 +1765,7 @@
 		(instances
 			(project ""
 				(path "/1249f778-de2d-49b4-b768-08b76b87278f/2740786f-be08-4dc9-b089-426f17e30b14"
-					(reference "C13")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -1781,7 +1781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a27cbb72-bb25-4bc0-9503-8dadeb677ce8")
-		(property "Reference" "C11"
+		(property "Reference" "C30"
 			(at 125.73 66.0399 0)
 			(effects
 				(font
@@ -1799,7 +1799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 120.9548 63.5 0)
 			(effects
 				(font
@@ -1835,7 +1835,7 @@
 		(instances
 			(project ""
 				(path "/1249f778-de2d-49b4-b768-08b76b87278f/2740786f-be08-4dc9-b089-426f17e30b14"
-					(reference "C11")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -1988,7 +1988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb94f8b-5a08-4ec3-82c5-af7ce861d99f")
-		(property "Reference" "C99"
+		(property "Reference" "C31"
 			(at 161.29 66.0399 0)
 			(effects
 				(font
@@ -2006,7 +2006,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 156.5148 63.5 0)
 			(effects
 				(font
@@ -2042,7 +2042,7 @@
 		(instances
 			(project ""
 				(path "/1249f778-de2d-49b4-b768-08b76b87278f/2740786f-be08-4dc9-b089-426f17e30b14"
-					(reference "C99")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2057,7 +2057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0374bee-90c0-434f-a359-a675414862e8")
-		(property "Reference" "C14"
+		(property "Reference" "C32"
 			(at 154.432 103.124 0)
 			(effects
 				(font
@@ -2075,7 +2075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 162.2552 109.22 0)
 			(effects
 				(font
@@ -2111,7 +2111,7 @@
 		(instances
 			(project ""
 				(path "/1249f778-de2d-49b4-b768-08b76b87278f/2740786f-be08-4dc9-b089-426f17e30b14"
-					(reference "C14")
+					(reference "C32")
 					(unit 1)
 				)
 			)
