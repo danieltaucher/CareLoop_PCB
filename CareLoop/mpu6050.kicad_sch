@@ -144,6 +144,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:Jumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -932,6 +1056,12 @@
 		)
 	)
 	(junction
+		(at 163.83 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c0b79ed-63cb-4c5c-ad34-d5706c176dac")
+	)
+	(junction
 		(at 137.16 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1019,13 +1149,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 161.29 83.82)
+			(xy 157.48 83.82) (xy 163.83 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2da49986-abec-4889-9e11-10540439202f")
+	)
+	(wire
+		(pts
+			(xy 163.83 83.82) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dabdd4a-612d-4dff-a365-e39f65770d30")
 	)
 	(wire
 		(pts
@@ -1109,6 +1249,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 82.55) (xy 163.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fee3003-dc12-4e2f-b46a-5ab9973e709b")
+	)
+	(wire
+		(pts
+			(xy 163.83 71.12) (xy 168.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798427af-eeb8-4cac-95aa-32c1bad7b8de")
+	)
+	(wire
+		(pts
 			(xy 115.57 83.82) (xy 121.92 83.82)
 		)
 		(stroke
@@ -1136,6 +1296,16 @@
 			(type default)
 		)
 		(uuid "91ccc3fb-e6a3-4f7a-a32f-06b8c682b9c8")
+	)
+	(wire
+		(pts
+			(xy 163.83 74.93) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9681cb73-76c0-4e92-a2e8-f5b99c21e253")
 	)
 	(wire
 		(pts
@@ -1270,7 +1440,7 @@
 	)
 	(hierarchical_label "INT_MPU"
 		(shape output)
-		(at 161.29 83.82 0)
+		(at 168.91 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1300,6 +1470,17 @@
 			(justify left)
 		)
 		(uuid "6a8ca47d-f4d2-41e7-a3cc-7058e9ee9bff")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 168.91 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f749f9f6-1101-4bae-9bf5-113a4ad5b8fd")
 	)
 	(symbol
 		(lib_id "Sensor_Motion:MPU-6050")
@@ -2043,6 +2224,76 @@
 			(project ""
 				(path "/1249f778-de2d-49b4-b768-08b76b87278f/2740786f-be08-4dc9-b089-426f17e30b14"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec9370df-e36d-45d7-8bf3-7098d90c0a7d")
+		(property "Reference" "R5"
+			(at 166.37 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 166.37 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 162.052 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cad6055f-9cf2-4fd9-9b60-3da70cd66a50")
+		)
+		(pin "1"
+			(uuid "5f3bab3c-b751-4c69-9d60-be68e21a89f1")
+		)
+		(instances
+			(project ""
+				(path "/1249f778-de2d-49b4-b768-08b76b87278f/2740786f-be08-4dc9-b089-426f17e30b14"
+					(reference "R5")
 					(unit 1)
 				)
 			)

@@ -1385,6 +1385,12 @@
 		(uuid "205ba573-c2a3-4f0b-8631-ea70a2e5e021")
 	)
 	(junction
+		(at 138.43 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e888128-a420-4fb9-a8b7-61545485a3cd")
+	)
+	(junction
 		(at 52.07 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1487,12 +1493,6 @@
 		(uuid "b8ca7efd-3d6d-45c0-af69-8f1bc2a7dfb0")
 	)
 	(junction
-		(at 168.91 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4f68b4f-c018-4353-9d93-24150fa26a65")
-	)
-	(junction
 		(at 143.51 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1582,16 +1582,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 82.55) (xy 179.07 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c9acafc-605b-49d7-9af3-8a61cb65dae0")
-	)
-	(wire
-		(pts
 			(xy 106.68 109.22) (xy 125.73 109.22)
 		)
 		(stroke
@@ -1609,16 +1599,6 @@
 			(type default)
 		)
 		(uuid "1021ba3a-e513-4546-a8ca-6dd14ecbb4b0")
-	)
-	(wire
-		(pts
-			(xy 179.07 82.55) (xy 168.91 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "135e9e6b-5f26-426b-9bf7-3f3c57e4e8de")
 	)
 	(wire
 		(pts
@@ -1882,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 83.82) (xy 138.43 87.63)
+			(xy 138.43 83.82) (xy 138.43 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1919,6 +1899,16 @@
 			(type default)
 		)
 		(uuid "919b1a46-bf58-4e28-b4eb-6166d51d9251")
+	)
+	(wire
+		(pts
+			(xy 179.07 91.44) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a7004b-a089-4ed9-9fda-4cd6ee2c1d26")
 	)
 	(wire
 		(pts
@@ -1989,6 +1979,16 @@
 			(type default)
 		)
 		(uuid "a3baa03c-aca7-4c65-8283-bbc082afb3c4")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.36) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47ce874-4e07-4ad6-a644-295139b95535")
 	)
 	(wire
 		(pts
@@ -2252,6 +2252,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 86.36) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd48a44a-896a-4b60-813b-a1380b98ea94")
+	)
+	(wire
+		(pts
 			(xy 52.07 111.76) (xy 67.31 111.76)
 		)
 		(stroke
@@ -2313,6 +2323,28 @@
 			(justify right)
 		)
 		(uuid "78e84b3d-113c-478d-b6e5-5e794876b5b5")
+	)
+	(hierarchical_label "VCC_1.8V"
+		(shape input)
+		(at 135.89 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d65b081-afc8-4bba-8fea-3c8214d6d002")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 179.07 91.44 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8b38d44-fce7-4961-bd49-2e8967b67ca4")
 	)
 	(hierarchical_label "VCC"
 		(shape input)

@@ -793,22 +793,6 @@
 		(color 0 0 0 0)
 		(uuid "2070b888-f888-4df4-a519-6f47eb6fbf8d")
 	)
-	(junction
-		(at 118.11 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "287b7834-f09e-44fa-aa63-a5d7ee9c5260")
-	)
-	(wire
-		(pts
-			(xy 118.11 102.87) (xy 137.16 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11882cd6-ee44-459a-9660-1c3c24b26a41")
-	)
 	(wire
 		(pts
 			(xy 127 93.98) (xy 129.54 93.98)
@@ -821,7 +805,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 118.11 102.87)
+			(xy 118.11 101.6) (xy 118.11 105.41)
 		)
 		(stroke
 			(width 0)
@@ -848,16 +832,6 @@
 			(type default)
 		)
 		(uuid "567360ce-bf29-4440-83fa-9aab36a21961")
-	)
-	(wire
-		(pts
-			(xy 118.11 102.87) (xy 118.11 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64b417a2-6c1c-4b8a-abd4-d3a9f3e4e8ec")
 	)
 	(wire
 		(pts
@@ -888,26 +862,6 @@
 			(type default)
 		)
 		(uuid "98c10b87-2d67-40c9-8da0-0442377b6ae8")
-	)
-	(wire
-		(pts
-			(xy 134.62 93.98) (xy 137.16 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a104c681-bd94-416c-94f5-67d564e22867")
-	)
-	(wire
-		(pts
-			(xy 137.16 93.98) (xy 137.16 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9aca555-95ac-4191-9bbb-6be6a6979309")
 	)
 	(hierarchical_label "ANT"
 		(shape bidirectional)
