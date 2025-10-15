@@ -1427,6 +1427,56 @@
 		)
 		(uuid "ffe388d5-2b6f-413c-8ca2-664bccc59ef3")
 	)
+	(label "CPOUT"
+		(at 163.83 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "149f5e30-a78e-4952-a1e7-ecf41a9d3132")
+	)
+	(label "FSYNC"
+		(at 113.03 107.95 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "491a0790-cfef-400e-b4f3-eb8bd2c8c984")
+	)
+	(label "CLKIN"
+		(at 118.11 107.95 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5089d92f-6f09-47c9-9083-6df81e6bf61e")
+	)
+	(label "REGOUT"
+		(at 158.75 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b061084-2df1-48f0-8164-cd5aaba260ad")
+	)
+	(label "VIN_MPU"
+		(at 142.24 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8cb11ce-bb4d-4292-9278-503dfde79f2e")
+	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 115.57 86.36 180)

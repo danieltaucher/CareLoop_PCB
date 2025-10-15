@@ -2358,6 +2358,76 @@
 		)
 		(uuid "f95eb672-98f9-43e8-ab0c-4aee4a91df56")
 	)
+	(label "VBUS"
+		(at 82.55 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b190a5d-50de-4c58-8ac1-1e85ade7a475")
+	)
+	(label "BAT_Plus"
+		(at 138.43 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5139c9f6-ffaf-40c4-b7f7-25757ba0996e")
+	)
+	(label "VIN_BATTERY"
+		(at 138.43 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a6b402a-1d24-4be6-bbaa-9763772b6038")
+	)
+	(label "TEMP"
+		(at 121.92 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9da658f5-b1b1-4e59-bc97-34f8b329aa45")
+	)
+	(label "CHRG"
+		(at 96.52 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d16cba07-ca40-41f9-a32f-4f10704278c5")
+	)
+	(label "STDBY"
+		(at 83.82 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfe40461-00f7-4326-a912-75b34d6a55ec")
+	)
+	(label "PROG"
+		(at 123.19 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec18683c-a948-409b-8a80-3287446f8aec")
+	)
 	(hierarchical_label "VCC"
 		(shape output)
 		(at 179.07 80.01 0)

@@ -1732,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 106.68) (xy 113.03 111.76)
+			(xy 113.03 106.68) (xy 113.03 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +1972,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 111.76) (xy 133.35 109.22)
+			(xy 133.35 110.49) (xy 133.35 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2242,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 133.35 111.76)
+			(xy 113.03 110.49) (xy 133.35 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2279,6 +2279,36 @@
 			(type default)
 		)
 		(uuid "fe54d03c-784a-463d-97aa-ce2a7b06be5a")
+	)
+	(label "SDA1"
+		(at 96.52 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2df2039d-4ff2-4e8b-b39a-ce2b7715ba42")
+	)
+	(label "VIN_MAX30102"
+		(at 138.43 68.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ffbda34-0000-4253-b6dc-806858d9fa29")
+	)
+	(label "SCL1"
+		(at 96.52 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c42d1f3-032b-42f8-8fa2-e25e4bb951a0")
 	)
 	(hierarchical_label "MAX_INT"
 		(shape output)

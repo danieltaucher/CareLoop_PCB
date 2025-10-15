@@ -3147,16 +3147,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 134.62) (xy 68.58 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f5ccadb-9502-4a34-81e6-4fea6360f2d1")
-	)
-	(wire
-		(pts
 			(xy 64.77 57.15) (xy 64.77 58.42)
 		)
 		(stroke
@@ -3367,6 +3357,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 116.84) (xy 68.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffdc971-5d37-4661-bcf3-ebf32d29ba0b")
+	)
+	(wire
+		(pts
 			(xy 139.7 60.96) (xy 139.7 58.42)
 		)
 		(stroke
@@ -3545,6 +3545,36 @@
 		)
 		(uuid "f8c2cfe9-df16-44cd-a74e-4f3610d95e75")
 	)
+	(label "SWDCLK"
+		(at 127 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0aa023bc-01bf-44b1-baa1-c52f1b2f06b7")
+	)
+	(label "DEC4{slash}DEC6"
+		(at 128.27 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11d1ef8b-39a5-447f-a842-f93b2b3819f6")
+	)
+	(label "DEC3"
+		(at 129.54 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2aafccce-5330-4cd0-9a43-e50419ccb613")
+	)
 	(label "Status_LED"
 		(at 52.07 127 0)
 		(effects
@@ -3555,9 +3585,59 @@
 		)
 		(uuid "405346dc-c46b-4d71-aaef-ce6284d6e8da")
 	)
+	(label "ANT_PIN"
+		(at 130.81 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e09df8a-42f5-43cf-be8b-5d17cee319a2")
+	)
+	(label "SWDIO"
+		(at 127 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "853511b5-56c4-4ae9-bbb3-39eb18bdc70d")
+	)
+	(label "Reset"
+		(at 127 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "876a656e-2420-4b7c-aa5c-c196693575f1")
+	)
+	(label "DCC"
+		(at 99.06 44.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aada23d7-7633-4dbd-ae69-e7cb7263afa6")
+	)
+	(label "DEC1"
+		(at 125.73 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5203135-5e8a-4a03-b036-5183c2428872")
+	)
 	(hierarchical_label "INT_MAX"
 		(shape input)
-		(at 62.23 134.62 180)
+		(at 59.69 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
