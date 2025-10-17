@@ -18171,6 +18171,19 @@
 		(layer "Edge.Cuts")
 		(uuid "184f8fb7-ac76-464e-afde-1122dbb6cdeb")
 	)
+	(gr_text "+"
+		(at 132.35 88.9 0)
+		(layer "F.SilkS")
+		(uuid "80002644-3188-4dce-98ae-aa9e635b385d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "CareLoop_V1.0"
 		(at 152.15 89.1 0)
 		(layer "F.SilkS")
