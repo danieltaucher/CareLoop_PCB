@@ -2494,6 +2494,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#(optional)" "C11702"
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cab4ccd-7e80-4536-b5e6-9a3e08bc97e6")
 		)
@@ -2694,6 +2703,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#(optional)" "C15525"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3034b8fe-2bfe-4e99-84da-639aca736511")
 		)
@@ -2848,7 +2866,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "498b46eb-d502-48ec-b77e-890e7c5ce04d")
 		(property "Reference" "JP2_MPU1"
@@ -2869,7 +2887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 143.51 67.31 0)
 			(effects
 				(font
@@ -2888,6 +2906,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 143.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" ""
 			(at 143.51 67.31 0)
 			(effects
 				(font
@@ -2958,6 +2985,15 @@
 		)
 		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
 			(at 110.998 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" "C382139"
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,6 +3090,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#(optional)" "C39051"
+			(at 154.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4b47086-361e-4617-b07b-4ad0a23c8836")
 		)
@@ -3127,6 +3172,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#(optional)" "C88945"
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86a2377e-60cc-4956-86fb-c9e3b4fdb811")
 		)
@@ -3189,6 +3243,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" "C88945"
 			(at 138.43 85.09 0)
 			(effects
 				(font
@@ -3269,6 +3332,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" "C20608782"
+			(at 88.9 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,6 +3484,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#(optional)" "C88945"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fcbd63c-92dc-4964-860b-dac35141dcc4")
 		)
@@ -3491,6 +3572,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#(optional)" "C20608782"
+			(at 76.2 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1f3cfb7-14a9-41a0-ab8e-0798518601f3")
 		)
@@ -3561,6 +3651,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#(optional)" "C11702"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "52142b14-aefc-4db2-9de6-4b2673ec754f")
 		)
@@ -3621,6 +3720,15 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 58.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" "C428495"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -3729,7 +3837,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f5b517cc-1e4f-40d7-aea0-486f47234f48")
 		(property "Reference" "J1_Battery1"
@@ -3751,7 +3859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 140.97 54.61 0)
 			(effects
 				(font
@@ -3771,6 +3879,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" ""
+			(at 140.97 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,6 +3957,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" "C25545"
 			(at 125.73 95.25 0)
 			(effects
 				(font

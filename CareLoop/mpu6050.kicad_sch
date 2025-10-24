@@ -1587,6 +1587,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#(optional)" "C24112"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "15"
 			(uuid "b2812bb6-9fef-4011-893e-402e017c7bbd")
 		)
@@ -1987,6 +1996,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#(optional)" "C80433"
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "689464dd-d8c7-4c2d-8d32-2124caab6900")
 		)
@@ -2049,6 +2067,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" "C1524"
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -2145,7 +2172,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "be69bb9d-04bf-4c56-96fc-8ad1c7224233")
 		(property "Reference" "JP2_MPU2"
@@ -2167,7 +2194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 139.7 55.88 0)
 			(effects
 				(font
@@ -2187,6 +2214,15 @@
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" ""
+			(at 139.7 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,6 +2292,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 157.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" "C161494"
 			(at 157.48 67.31 0)
 			(effects
 				(font
@@ -2334,6 +2379,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#(optional)" "C22369185"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cad6055f-9cf2-4fd9-9b60-3da70cd66a50")
 		)
@@ -2395,6 +2449,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" "C161494"
 			(at 161.29 105.41 0)
 			(effects
 				(font
