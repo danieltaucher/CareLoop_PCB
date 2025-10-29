@@ -2300,7 +2300,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#(optional)" "C161494"
+		(property "JLCPCB Part#(optional)" "C161404"
 			(at 157.48 67.31 0)
 			(effects
 				(font
@@ -2457,7 +2457,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#(optional)" "C161494"
+		(property "JLCPCB Part#(optional)" "C161404"
 			(at 161.29 105.41 0)
 			(effects
 				(font

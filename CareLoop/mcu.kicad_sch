@@ -3787,7 +3787,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#(optional)" "C161494"
+		(property "JLCPCB Part#(optional)" "C161404"
 			(at 90.17 26.67 90)
 			(effects
 				(font
@@ -4127,7 +4127,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "800"
 			(at 45.974 122.174 90)
 			(effects
 				(font
@@ -4162,7 +4162,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#(optional)" "C25097"
+		(property "JLCPCB Part#(optional)" "C11522"
 			(at 45.72 127 90)
 			(effects
 				(font
@@ -4633,7 +4633,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "4p"
 			(at 45.7136 76.2 90)
 			(effects
 				(font
@@ -4668,7 +4668,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#(optional)" "C107034"
+		(property "JLCPCB Part#(optional)" "C384690"
 			(at 45.72 80.01 90)
 			(effects
 				(font
@@ -4787,7 +4787,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "4p"
 			(at 45.466 69.596 90)
 			(effects
 				(font
@@ -4822,7 +4822,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#(optional)" "C107034"
+		(property "JLCPCB Part#(optional)" "C384690"
 			(at 45.72 72.39 90)
 			(effects
 				(font
@@ -6639,7 +6639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "100n"
 			(at 133.35 52.0762 0)
 			(effects
 				(font
@@ -6675,7 +6675,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#(optional)" "C62550"
+		(property "JLCPCB Part#(optional)" "C161404"
 			(at 130.81 50.8 0)
 			(effects
 				(font
