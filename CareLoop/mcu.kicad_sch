@@ -3267,6 +3267,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 139.7) (xy 68.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b668d390-7d73-471f-b128-eb26843498a0")
+	)
+	(wire
+		(pts
 			(xy 160.02 97.79) (xy 160.02 95.25)
 		)
 		(stroke
@@ -3667,6 +3677,17 @@
 			(justify left)
 		)
 		(uuid "89583194-c41c-43d8-b4af-26ab18056d60")
+	)
+	(hierarchical_label "Vin_Battery_Status"
+		(shape input)
+		(at 62.23 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a1642ea-e204-4869-b60f-7d1f2e60b713")
 	)
 	(hierarchical_label "INT_MPU"
 		(shape input)

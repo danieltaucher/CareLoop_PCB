@@ -6,16 +6,16 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
+		(at 193.04 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eceb9c7-1582-4cf6-a0dd-bf7398698d00")
+	)
+	(junction
 		(at 142.24 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d39f5e8a-dc0e-4083-8e9b-d9f70f226672")
-	)
-	(junction
-		(at 193.04 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f483fe3e-547f-4006-bc2d-fc52345dc2f2")
 	)
 	(junction
 		(at 138.43 113.03)
@@ -31,13 +31,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 91.44) (xy 193.04 91.44)
+			(xy 190.5 90.17) (xy 193.04 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "016d2b30-e7eb-4ef5-97c5-2420325bb698")
+	)
+	(wire
+		(pts
+			(xy 109.22 60.96) (xy 109.22 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0193a559-0e02-4271-9a14-b64a4d5dd2f6")
 	)
 	(wire
 		(pts
@@ -88,6 +98,26 @@
 			(type default)
 		)
 		(uuid "3d36f026-5102-46e8-a40c-bdad23d5e782")
+	)
+	(wire
+		(pts
+			(xy 190.5 92.71) (xy 199.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e58b497-5d1f-4c8d-b22f-ea624e519756")
+	)
+	(wire
+		(pts
+			(xy 199.39 60.96) (xy 109.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517c619f-f75b-423a-99ea-20a4425421e3")
 	)
 	(wire
 		(pts
@@ -151,6 +181,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 92.71) (xy 199.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72755ea8-cbb2-4b13-92a4-57c14ed9095e")
+	)
+	(wire
+		(pts
 			(xy 189.23 67.31) (xy 193.04 67.31)
 		)
 		(stroke
@@ -158,6 +198,16 @@
 			(type default)
 		)
 		(uuid "76fa4876-83b0-408d-be62-dfb081d81fb1")
+	)
+	(wire
+		(pts
+			(xy 193.04 90.17) (xy 193.04 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f94507f-48ee-412b-abf6-d2bf87436ba7")
 	)
 	(wire
 		(pts
@@ -211,7 +261,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 193.04 91.44)
+			(xy 193.04 81.28) (xy 193.04 90.17)
 		)
 		(stroke
 			(width 0)
@@ -271,16 +321,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 91.44) (xy 193.04 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6e859ad-26e9-4b79-b8a7-1f6a0f8cf670")
-	)
-	(wire
-		(pts
 			(xy 171.45 121.92) (xy 190.5 121.92)
 		)
 		(stroke
@@ -290,8 +330,8 @@
 		(uuid "fbbad273-9cd4-401f-ac25-64f4a0fd27a4")
 	)
 	(sheet
-		(at 173.99 87.63)
-		(size 16.51 7.62)
+		(at 170.18 87.63)
+		(size 20.32 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -306,7 +346,7 @@
 		)
 		(uuid "229629cb-a49c-4768-b0e8-d6cfdb6777f2")
 		(property "Sheetname" "Battery"
-			(at 173.99 86.9184 0)
+			(at 170.18 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,7 +355,7 @@
 			)
 		)
 		(property "Sheetfile" "battery.kicad_sch"
-			(at 173.99 95.8346 0)
+			(at 170.18 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -324,8 +364,18 @@
 			)
 		)
 		(pin "VCC" output
-			(at 190.5 91.44 0)
+			(at 190.5 90.17 0)
 			(uuid "7e161b39-1ece-4437-af10-86e3036c8e4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_Battery_Status" input
+			(at 190.5 92.71 0)
+			(uuid "492c5e24-523a-4989-8401-c35b9f03c119")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,6 +703,16 @@
 		(pin "INT_MAX" input
 			(at 124.46 90.17 0)
 			(uuid "58e44e9c-89f5-4d48-be23-d8d13feceea3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_Battery_Status" input
+			(at 109.22 77.47 90)
+			(uuid "18deada4-d195-41a3-b28a-d9e46650efe9")
 			(effects
 				(font
 					(size 1.27 1.27)
